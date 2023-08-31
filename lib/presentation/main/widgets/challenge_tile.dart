@@ -17,7 +17,7 @@ class ChallengeTile extends StatelessWidget {
     final theme = Theme.of(context);
 
     return SizedBox(
-      height: 150,
+      height: 130,
       child: ListTile(
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
