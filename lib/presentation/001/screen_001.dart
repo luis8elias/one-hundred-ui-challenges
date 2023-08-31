@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
 import '/widgets/keyboard_dismisser.dart';
-import '/presentation/001/widgets/text_field_001.dart';
-import '/presentation/001/theme/theme.dart';
+
+import 'widgets/text_field_001.dart';
+import 'theme/theme.dart';
 
 class Screen001 extends StatelessWidget {
   const Screen001({super.key});
