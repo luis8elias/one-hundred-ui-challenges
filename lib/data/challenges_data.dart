@@ -8,4 +8,10 @@ final List<ChallengeModel> challenges = [
     imgPreview: '001/preview.png', 
     route: Screen001.routeName
   ),
+  ChallengeModel(
+    number: '002',
+    title: 'Let\'s Gonuts!', 
+    imgPreview: '002/preview.png', 
+    route: Screen002.routeName
+  ),
 ];

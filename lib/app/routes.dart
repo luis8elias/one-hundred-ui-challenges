@@ -15,10 +15,15 @@ final routes =  [
     name: MainScreen.routeName,
     builder: (context, state) => const MainScreen(),
     routes: [
-       GoRoute(
+      GoRoute(
         path: Screen001.routeName,
         name: Screen001.routeName,
         builder: (context, state) => const Screen001(),
+      ),
+      GoRoute(
+        path: Screen002.routeName,
+        name: Screen002.routeName,
+        builder: (context, state) => const Screen002(),
       ),
     ]
   ),
